@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/match")
-@CrossOrigin("*")
+@CrossOrigin("https://frontend-cricket.vercel.app/")
 public class MatchController {
     private MatchService matchService;
 
